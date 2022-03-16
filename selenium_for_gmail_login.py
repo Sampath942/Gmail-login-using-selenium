@@ -34,5 +34,3 @@ if __name__=='__main__':
     time.sleep(2)
     driver.get("https://mail.google.com/mail/u/0/#inbox")
     time.sleep(2)
-    
-    #time.sleep(60)
