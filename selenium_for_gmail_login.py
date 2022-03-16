@@ -28,7 +28,7 @@ if __name__=='__main__':
     driver.find_element_by_xpath("/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div/div[1]/div/div[1]/input").send_keys(GMAIL)
     driver.find_element_by_xpath("/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div/div[1]/div/div[1]/input").send_keys(Keys.RETURN)
     time.sleep(2)
-    driver.find_element_by_name("password").send_keys("freechaitanyasanchalanam")
+    driver.find_element_by_name("password").send_keys(PASSWORD)
     time.sleep(2)
     driver.find_element_by_id("passwordNext").click()
     time.sleep(2)
